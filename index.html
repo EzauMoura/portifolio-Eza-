@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <!-- Meta tags  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- title  -->
+  <title>Portifólio Pessoal</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/extends.css">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar">
+    <div class="navbar__content max-width mb-0">
+      <a href="/">
+        <img src="assets/logoezau.png" alt="Ezaú Moura" />
+      </a>
+      <ul class="navbar__links">
+        <li><a href="#header">Início</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#footer">Contato</a></li>
+      </ul>
+      <div class="navbar__mobile">
+        <img src="assets/menu.svg" alt="menu" class="burguer" />
+        <ul class="mobile__links">
+          <li><a href="#header">Início</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#footer">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- header -->
+  <header id="header" class="max-width">
+    <div class="header__left">
+      <h1>Olá! Sou Ezaú Moura Desenvolvedor Front-end em aprendizagem</h1>
+      <p>
+        Desenvolvedor front-end dando os primieros passos, em desenvolvimento
+        de sites. Sou apaixonado por criar soluções tecnológicas que resolvem os problemas dos clientes.
+      </p>
+      <a href="#about" class="btn btn-primary">Saiba Mais!</a>
+    </div>
+    <div class="header__right">
+      <div class="header__image">
+        <img src="assets/Ezau.jpg" alt="Ezaú Moura" class="ezau" />
+        <img src="assets/abstract.svg" alt="background" class="background" />
+      </div>
+    </div>
+  </header>
+
+  <!-- Sobre -->
+  <section id="about" class="about max-width">
+    <div class="about__left">
+      <h2 class="secondary-title">Saiba um pouco mais sobre mim</h2>
+      <p>Conheça o meu trabalho atrvés das redes sociais abaixo.</p>
+      <ul>
+        <li><a href="#"><img src="assets/instagram.svg" alt="Instagram"></a></li>
+        <li><a href="https://www.linkedin.com/in/ezaupmoura/"><img src="assets/linkedin.svg" alt="Linkedin"></a></li>
+        <li><a href="https://github.com/EzauMoura"><img class="git" src="assets/iconmonstr-github-1.svg" alt="Github"></a></li>
+      </ul>
+    </div>
+    <div class="about__right">
+      <h3 class="tertiary-title mb-m">
+        Desenvolvedor front-end apaixonado por tecnologia
+      </h3>
+      <p>Olá! Me chamo Ezaú Moura, sou formado em licenciatura em química pela Universidade Federal do Piauí, atualmente
+        trabalho em posto de saúde, na função de técnico agente comunitário de saúde, mas sempre gostei mesmo foi de
+        tecnológia e em 2024 finalmente resolvi estudar o que gosto.</p>
+      <p>Comecei a estudar análise e desenvolvimento de sistemas na faculdade GRAN, e faço parte do programa ONE T6,
+        formação Front-end na Alura, e espero em breve está atuando na área e vou me esforçar para ser um bom
+        profissional.</p>
+    </div>
+  </section>
+
+  <!-- Habilidades -->
+  <section id="skills" class="skills">
+    <div class="skills__content max-width">
+      <h2 class="tertiary-title">Habilidades</h2>
+      <p class="description">
+        Habilidades front-end sendo melhoradas a cada avanço no curso ONE T6 da Alura.
+      </p>
+      <ul>
+        <li class="skills__item">
+          <div class="image-container">
+            <img src="assets/notebook.png" alt="Desenvolvimento Web" />
+          </div>
+          <h3>Desenvolvimento Web</h3>
+          <p>Experiência em desenvolvimento front-end com foco em HTML, CSS e javaScript.</p>
+        </li>
+        <li class="skills__item">
+          <div class="image-container">
+            <img class="decodificador" src="assets/colors.png" alt="Web Design" />
+          </div>
+          <h3>Web Design</h3>
+          <p>Habilidades de criar layouts modernos e reponsivos, com foco na experiência do usuário.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Projetos -->
+  <section id="projects" class="projects max-width">
+    <div class="projects__content">
+      <h2 class="secondary-title">Projeto em Destaque</h2>
+      <p>
+        Projetos sendo construidos ao longo do meu aprendizado
+      </p>
+    </div>
+    <ul>
+      <li>
+        <div class="image">
+          <img src="assets/decodificador.png" alt="Decodificador de texto" />
+        </div>
+        <div class="projects__info">
+          <h3 class="tertiary-title">
+            Decodificador de Texto
+          </h3>
+          <p>
+            Primeiro Challenge do programa ONE da Alura DECODIFICADOR DE TEXTO.
+            É uma aplicação que criptografa textos, assim você poderá trocar mensagens secretas com outras pessoas que
+            saibam o segredo da criptografia utilizada.
+          </p>
+          <p>As "chaves" de criptografia que utilizaremos são: A letra "e" é convertida para "enter" A letra "i" é convertida para "imes" A letra "a" é convertida para "ai" A letra "o" é convertida para "ober" A letra "u" é convertida para "ufat".</p>
+          <p>Deve funcionar apenas com letras minúsculas. Não devem ser utilizados letras com acentos nem caracteres especiais. Deve ser possível converter uma palavra para a versão criptografada e também retornar uma palavra criptografada para a versão original.
+          Por exemplo: "gato" => "gaitober" gaitober" => "gato"</p>
+          <a href="#">Leia mais &rarr;</a>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="footer__content max-width mb-0">
+      <h2 class="tertiary-title mb-s">Vamos conversar?</h2>
+      <p class="mb-m">
+        Ficarei feliz em atendelo, para assim transforma o seu projeto em realidade.
+      </p>
+      <div class="footer__contact mb-m">
+        <span class="mb-m">ezaupdm@gmail.com</span>
+        <span>XX XXXX-XXXX</span>
+      </div>
+      <ul class="mb-l">
+        <li>
+          <a href="#"><img src="assets/instagram.svg" alt="Instagram" /></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/ezaupmoura/"><img src="assets/linkedin.svg" alt="Linkedin" /></a>
+        </li>
+        <li>
+          <a href="https://github.com/EzauMoura"><img class="git" src="assets/iconmonstr-github-1.svg" alt="Github" /></a>
+        </li>
+      </ul>
+      <p class="footer__copyright">
+        © 2024 Ezaú Moura.
+      </p>
+    </div>
+  </footer>
+
+  <script src="scripts/index.js"></script>
+</body>
+
+</html>
